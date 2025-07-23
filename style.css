@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; padding: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+ 
+header {
+  background: #004b8d;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+ 
+.logo {
+  height: 40px;
+}
+ 
+input[type="search"], input[type="text"], input[type="email"], input[type="tel"], input[type="url"], textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+ 
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 10px;
+  height: calc(100vh - 140px);
+  overflow-y: auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #ccc;
+}
+ 
+.product {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+  display: flex;
+  gap: 15px;
+}
+ 
+.product img {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+ 
+.product-info {
+  flex: 1;
+}
+ 
+.product-info h3 {
+  margin: 0 0 5px;
+}
+ 
+.product-info p {
+  margin: 2px 0;
+  font-size: 0.9em;
+}
+ 
+footer {
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+  padding: 0 10px;
+  text-align: center;
+}
+ 
+button {
+  background: #004b8d;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+ 
+button:hover {
+  background: #00346b;
+}
+ 
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+ 
+form button {
+  width: 100%;
+  margin-top: 15px;
+}
